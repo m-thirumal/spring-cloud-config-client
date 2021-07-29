@@ -3,6 +3,7 @@
  */
 package in.thirumal.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,5 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PropertController {
 	
-	
+	@GetMapping("/")
+	public Property getProperty() {
+		return new Property();
+	}
+
 }
