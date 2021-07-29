@@ -10,8 +10,8 @@
 
 ## Required Repos link
 
+* [https://github.com/M-Thirumal/spring-cloud-config-server](https://github.com/M-Thirumal/spring-cloud-config-server)
 * [https://github.com/M-Thirumal/config-repo](https://github.com/M-Thirumal/config-repo)
-* 
 
 ### How do I get set up? ###
 
