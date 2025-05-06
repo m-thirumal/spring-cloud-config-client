@@ -13,6 +13,22 @@
 * [https://github.com/M-Thirumal/spring-cloud-config-server](https://github.com/M-Thirumal/spring-cloud-config-server)
 * [https://github.com/M-Thirumal/config-repo](https://github.com/M-Thirumal/config-repo)
 
+## Endpoints
+
+To refresh the properties
+
+```shell
+
+curl -X POST http://localhost:8080/actuator/refresh
+```
+
+response is the variables that are changed.
+
+```
+["config.client.version","client.name"]% 
+
+```
+
 ### How do I get set up? ###
 
 * Summary of set up
